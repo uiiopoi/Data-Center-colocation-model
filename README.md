@@ -39,7 +39,22 @@ models/
     SPUR_Combined_Model_v7.xlsx
     SPUR_Preliminary_Model_v3.xlsx / v5 / v7
     SPUR_Model3_DC_Cost_v1.xlsx
+python/
+  quick_model.py                   Early Python prototype of Model 2 (see below)
+  requirements.txt
 ```
+
+### Python prototype
+
+`python/quick_model.py` is a short, readable version of the Model 2 cash flow logic. It covers Solar + BESS only and was written before the full Excel model. It uses the **Draft 1 baseline** (project built and then idle until COD) and a flat $60 BTM price, so its numbers differ from v8. The Excel workbook is the current model.
+
+```bash
+cd python
+pip install -r requirements.txt
+python quick_model.py
+```
+
+The script prints a grid-delay × ITC sweep and saves `breakeven_preliminary.png`.
 
 ## Model structure (`SPUR_Combined_Model_v8.xlsx`)
 
