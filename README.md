@@ -24,9 +24,15 @@ The project asks whether option 2 raises the developer's return **and** lowers t
 - At the midpoint of that range, co-location beats waiting once the grid delay exceeds about **4 years for solar** and **2 years for wind**. For **geothermal** it wins at every delay tested.
 - Most of the value comes from the **transmission, distribution, and capacity charges** that the data center avoids.
 
+## Documentation
+
+**[Model Guide](docs/model-guide.md)** walks through the full methodology: how the four models connect, the key formulas (capital stack, cash flow waterfall, LCOE, pricing range), every major assumption and its source, base-case results, how to run scenarios, and the version history.
+
 ## Repository contents
 
 ```
+docs/
+  model-guide.md                   Detailed methodology and assumptions
 models/
   SPUR_Combined_Model_v8.xlsx      Current model (data source for Working Paper Draft 3)
   archive/                         Earlier versions, kept for reference
