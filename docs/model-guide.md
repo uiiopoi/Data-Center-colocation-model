@@ -394,7 +394,6 @@ Everything recalculates live except the static sweep tables in `Results` rows 24
 5. **α is a lever, not an estimate.** The bargaining share should eventually be informed by practitioner interviews.
 6. **Carbon scenarios are not wired in.** C30 and C60 would raise ceilings A and C by about $13 and $26/MWh.
 7. **Regulatory assumptions.** These include whether BTM operation counts as "placed in service" for tax credits, how the PPA handles the transition to grid service, and whether a microgrid arrangement triggers utility or CPUC jurisdiction. All of these need legal review.
-8. **Partly stale notes.** Some text in `M4_Notes` (§3 unlevered IRRs, §7a–b) describes v7, before the Model 4 → Model 2 link was closed. The live sheets are authoritative.
 
 ---
 
